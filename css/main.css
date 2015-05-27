@@ -171,17 +171,19 @@ header h3 {
 
 /* - - - pop-up messages - - - */
 .message {
-    /*display: none;*/
     position: absolute;
     margin: 1em auto;
 }
 
 .message p, .message .number {
+    opacity: 0;
     display: inline;
+    transition: all 1s;
+    -webkit-transition: all 1s;
 }
 
 .number {
-    display: block;
+    display: hidden;
     float: left;
     position: relative;
     width: 24px;
@@ -209,6 +211,10 @@ span.number {
 .message-3 { top: 250px; left: 50%; }
 .message-4 { top: 450px; left: 50%; }
 .message-5 { top: 700px; }
+
+.message p.come-in, .message .number.come-in {
+    opacity: 1;
+}
 
 /* - - - - - - - */
 
