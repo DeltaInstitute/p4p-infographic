@@ -110,6 +110,79 @@ light gray   #A6A8AB
 
 */
 
+.top-container {
+    background-color: #A5D9EA;
+}
+
+.farm-section {
+    background-color: #27381A;
+    color: #fff;
+}
+
+.pitch-section {
+    background-color: #404041;
+    color: #fff;
+}
+
+.graphic-section {
+    padding: 0.5em 1em;
+}
+
+#content {
+    max-width: 750px;
+    margin: 1.5em auto;
+}
+
+.top-message {
+    color: #404041;
+}
+
+
+/* - - - pop-up messages - - - */
+.message {
+    /*display: none;*/
+    position: relative;
+}
+
+.message p, .message .number {
+    display: inline-block;
+}
+
+.number {
+    position: relative;
+    width: 24px;
+}
+
+span.number {
+    color: #404041;
+    font-size: 20px;
+    border: 0px solid #fff;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    text-align: center;
+    margin-right: 1em;
+}
+
+/*.container.message {
+    clear: both;
+}*/
+
+/* - - - - - - - */
+
+
+.p4p-recap {
+    clear: both;
+}
+
+.explanation-container>div {
+    /*width: 48%;
+    float: left;*/
+    border: 1px solid #fff;
+
+}
 
 
 
