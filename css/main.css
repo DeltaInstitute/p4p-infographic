@@ -273,7 +273,34 @@ span.number {
 }
 
 
+/* ---------- FLOWLINE ANIMATION ----------- */
+.flowline {
+    position: absolute;
+    top: -190px;
+    stroke-dasharray: 906;
+    stroke-dashoffset: 906;
+    transition: all 2s linear;
+    animation: dash 1s linear;
+}
 
+.flowline-visible {
+    stroke-dashoffset: 1812;
+}
+
+/*@keyframes dash {
+    from { stroke-dashoffset: 906; }
+    to { stroke-dashoffset: 0; stroke-width: 10; stroke: #000; }
+}
+
+@-webkit-keyframes dash {
+  from { stroke-dashoffset: 906; }
+  to { stroke-dashoffset: 0; stroke-width: 10; stroke: #000; }
+}
+
+@-moz-keyframes dash {
+  from { stroke-dashoffset: 906; }
+  to { stroke-dashoffset: 0; stroke-width: 10; stroke: #000; }
+}*/
 
 
 

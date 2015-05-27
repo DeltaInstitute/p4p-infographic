@@ -77,8 +77,14 @@ $(document).on('scroll', function() {
     if( $(this).visible() ) {
       $(this).children().addClass('come-in');
     }
-
   });
+
+  $('.flowline').each(function() {
+    if( $('.message-5').visible() ) {
+      $('.flowline').css('stroke-dashoffset', '1812');
+    }
+  });
+
 });
 
 
