@@ -112,25 +112,56 @@ light gray   #A6A8AB
 
 .top-container {
     background-color: #A5D9EA;
+    height: 700px;
+}
+
+h1 {
+    font-size: 2.7em;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.3em;  
+    text-align: center;
+}
+
+header h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.graphic-section {
+    padding: 50px 0;
+    position: relative;
 }
 
 .farm-section {
-    background-color: #27381A;
+    background-color: #487838;
     color: #fff;
+    height: 744px;
+    z-index: 9999;
+}
+
+.farm-background {
+    position: absolute;
+    top: -85px;
 }
 
 .pitch-section {
     background-color: #404041;
     color: #fff;
+    z-index: 1;
+    padding-top: 100px;
 }
 
-.graphic-section {
-    padding: 0.5em 1em;
-}
-
-#content {
+.container {
     max-width: 750px;
-    margin: 1.5em auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container.message {
+    width: 40%;
 }
 
 .top-message {
@@ -141,14 +172,17 @@ light gray   #A6A8AB
 /* - - - pop-up messages - - - */
 .message {
     /*display: none;*/
-    position: relative;
+    position: absolute;
+    margin: 1em auto;
 }
 
 .message p, .message .number {
-    display: inline-block;
+    display: inline;
 }
 
 .number {
+    display: block;
+    float: left;
     position: relative;
     width: 24px;
 }
@@ -170,6 +204,12 @@ span.number {
     clear: both;
 }*/
 
+.message-1 { top: 0px; left: 20px; }
+.message-2 { top: 0px; left: 50%; }
+.message-3 { top: 250px; left: 50%; }
+.message-4 { top: 450px; left: 50%; }
+.message-5 { top: 700px; }
+
 /* - - - - - - - */
 
 
@@ -182,6 +222,48 @@ span.number {
     float: left;*/
     border: 1px solid #fff;
 
+}
+
+
+
+
+
+
+
+
+
+/* - - - SVG animations - - - */
+.sun {
+    position: absolute;
+    transform: translate(0px, 0px);
+}
+
+.cloud1 {
+    transform: translate(20px, 0px);
+}
+
+.cloud2 {
+    transform: translate(280px, 120px);
+}
+
+.cloud3 {
+    /*transform: translate(230px, 90px);*/
+}
+
+.cloud4 {
+    transform: translate(-480px, 150px);
+}
+
+.cloud-move {
+    animation: cloud-drift 15s ease infinite;
+    -webkit-animation: cloud-drift 15s ease infinite;
+    -moz-animation: cloud-drift 15s ease infinite; 
+}
+
+@keyframes cloud-drift {
+    0% { transform: translate(100px, 60px); }
+    50% { transform: translate(150px, 60px); }
+    100% { transform: translate(100px, 60px); }
 }
 
 
