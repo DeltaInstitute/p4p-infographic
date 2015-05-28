@@ -329,6 +329,11 @@ span.number {
     animation: dash 1s linear;
 }
 
+#flowline {
+    stroke:#000000;
+    stroke-width:3px;
+}
+
 .flowline-visible {
     stroke-dashoffset: 1812;
 }
