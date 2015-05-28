@@ -85,6 +85,12 @@ $(document).on('scroll', function() {
     }
   });
 
+  $('.p4p-graphic').each(function() {
+    if($(this).visible()) {
+      $(this).addClass('come-in');
+    }
+  });
+
 });
 
 

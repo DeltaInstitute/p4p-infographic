@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg4717"
+   viewBox="0 0 278 185"
+   height="185"
+   width="278">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4719" />
+  <g
+     transform="translate(-11.744898,-821.98398)"
+     id="layer1" />
+  <g
+     id="g5289"
+     transform="translate(-11.744898,-821.98398)">
+    <g
+       id="tractor">
+      <path
+         style="opacity:0.74199997;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1"
+         id="path5265"
+         d="m 75.990396,979.07281 a 27.911165,27.911165 0 0 1 -27.864155,27.91109 27.911165,27.911165 0 0 1 -27.958017,-27.81707 27.911165,27.911165 0 0 1 27.76998,-28.00482 27.911165,27.911165 0 0 1 28.051559,27.72277" />
+      <path
+         style="fill:#004c0a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 82.112845,981.41378 c 25.690885,-0.21648 50.000005,0 90.036015,0 14.82593,-52.22089 66.7467,-37.09484 70.22809,0 l 47.89916,0 0,-112.72509 -139.73589,0 0,33.13325 -27.7311,27.7311 -35.654258,0 -21.248499,-19.08764 -35.895346,0.33472 -17.766119,18.75292 0,52.94117 5.762305,0 c 0.121152,-43.67556 54.261099,-47.68268 64.105642,-1.08043 z"
+         id="path5293" />
+      <path
+         style="fill:#232323;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 267.58703,868.32855 0,-45.37815 13.68548,0 0,45.37815 z"
+         id="path5295" />
+      <path
+         d="m 235.89437,979.07281 a 27.911165,27.911165 0 0 1 -27.86416,27.91109 27.911165,27.911165 0 0 1 -27.95802,-27.81707 27.911165,27.911165 0 0 1 27.76998,-28.00482 27.911165,27.911165 0 0 1 28.05156,27.72277"
+         id="path5291"
+         style="opacity:0.74199997;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+  </g>
+  <g
+   transform="translate(-0.0044476,-102.82762)"
+   id="tractor-path">
+  <path
+     id="hills-background"
+     d="m 749.69916,139.00477 c 0,0 -675.646455,0.71804 -749.6947124,1.58835 0,0 152.6525524,-83.079481 357.3962724,-2.79173 80.79084,-30.71254 184.91708,-38.706537 261.13117,-1.20337 94.26567,-25.17094 131.16727,1.20337 131.16727,1.20337 l 0,0"
+     style="fill:#487838;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <animateMotion
+      xlink:href="#tractor"
+      dur="5s"
+      begin="0s"
+      fill="freeze"
+      repeatCount="indefinite">
+    <mpath xlink:href="tractor-path.svg" />
+  </animateMotion>
+</svg>

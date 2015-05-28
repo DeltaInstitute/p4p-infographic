@@ -112,7 +112,7 @@ light gray   #A6A8AB
 
 .top-container {
     background-color: #A5D9EA;
-    height: 700px;
+    height: 720px;
 }
 
 h1 {
@@ -120,14 +120,16 @@ h1 {
     text-align: center;
 }
 
-header p {
+header div {
     font-size: 1.3em;  
     text-align: center;
+    /*border-left: 4px solid;*/
+    
 }
 
 header h3 {
-    font-size: 2em;
-    text-align: center;
+    font-size: 1.5em;
+    /*text-align: center;*/
 }
 
 .graphic-section {
@@ -161,7 +163,7 @@ header h3 {
 }
 
 .container.message {
-    width: 40%;
+    width: 45%;
 }
 
 .top-message {
@@ -182,11 +184,20 @@ header h3 {
     -webkit-transition: all 1s;
 }
 
+.status-quo-text {
+    visibility: hidden;
+}
+
 .number {
     display: hidden;
     float: left;
     position: relative;
     width: 24px;
+    margin-bottom: 1em;
+}
+
+.number-2, .number-3, .number-4 {
+    /*float: right;*/
 }
 
 span.number {
@@ -207,12 +218,12 @@ span.number {
 }*/
 
 .message-1 { top: 0px; left: 20px; }
-.message-2 { top: 0px; left: 50%; }
-.message-3 { top: 250px; left: 50%; }
-.message-4 { top: 450px; left: 50%; }
+.message-2 { top: 150px; left: 55%; }
+.message-3 { top: 350px; left: 20px; }
+.message-4 { top: 550px; left: 55%; }
 .message-5 { top: 700px; }
 
-.message p.come-in, .message .number.come-in {
+.message p.come-in, .message .number.come-in, .p4p-graphic.come-in {
     opacity: 1;
 }
 
@@ -301,6 +312,38 @@ span.number {
   from { stroke-dashoffset: 906; }
   to { stroke-dashoffset: 0; stroke-width: 10; stroke: #000; }
 }*/
+
+
+/* ---------- SLIDE-IN GRAPHICS ----------- */
+
+.p4p-graphic {
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.barn {
+    position: absolute;
+    width: 20%;
+    left: 30px;
+    top: -145px;
+}
+
+.svg-tractor-path {
+    position: absolute;
+    top: -84px;
+}
+
+.tractor {
+    position: absolute;
+    width: 15%;
+    left: 30px;
+    top: -145px;
+}
+
+
+
+
 
 
 
